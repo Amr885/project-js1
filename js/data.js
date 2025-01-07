@@ -1,0 +1,76 @@
+let productsdb =[
+    {   id :1,
+        imgurl: "images/Capture war2.PNG",
+        title : "God of war Ragnarok",
+        price : "63 $",
+        category : "war",
+        quantity : 1,
+
+    },
+    {   
+        id :2,
+        imgurl: "images/Capturespider.PNG",
+        title : "Spider-man2",
+        price : "45 $",
+        category : "action",
+        quantity : 1,
+    },
+    {
+        id :3,
+        imgurl: "images/Capturelast2.PNG",
+        title : "Last of us 2",
+        price : "49 $",
+        category : "horror",
+        quantity : 1,
+    },
+    {
+        id :4,
+        imgurl: "images/CaptureFC25.PNG",
+        title : "FC 25",
+        price : "60 $",
+        category : "Sports",
+        quantity : 1,
+    },
+    {
+        id :5,
+        imgurl: "images/Capturecall.PNG",
+        title : "Call of duty",
+        price : "65 $",
+        category : "war",
+        quantity : 1,
+    },
+    {
+        id :6,
+        imgurl: "images/CaptureGHOST.PNG",
+        title : "Ghost of Tsushima",
+        price : "43 $",
+        category : "war",
+        quantity : 1,
+    },
+    {
+        id :7,
+        imgurl: "images/CaptureRED.PNG",
+        title : "Red Dead  Redemption2",
+        price : "50 $",
+        category : "action",
+        quantity : 1,
+    },
+    {
+        id :8,
+        imgurl: "images/Captureun2.PNG",
+        title : "Uncharted 4",
+        price : "33 $",
+        category : "action",
+        quantity : 1,
+    },
+    {
+        id :9,
+        imgurl: "images/Capturelast1.PNG",
+        title : "Last of us 1",
+        price : "29 $",
+        category : "horror",
+        quantity : 1,
+    }
+]
+
+// localStorage.setItem("products",JSON.stringify(productsdb))

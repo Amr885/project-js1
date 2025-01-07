@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Games store</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-2 d-flex justify-content-between">
+            <div class="container-fluid">
+              <a class="navbar-brand titlee justify-content-between" href="#"><i class="fa-brands fa-playstation"></i> <span>Online Games</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2  mx-5 mb-lg-0" id="user-info">
+                    <li><a href="#" id="user"></a></li>
+                  <li class="nav-item shipping-cart">
+                    <i class="fa-solid fa-cart-shopping cartt"></i>
+                    <span class="cart d-inline-block text-primary">cart</span>
+                    <span class="cart d-inline-block text-primary arroww"><i class="fa-solid fa-caret-down"></i></span>
+                    <span class="badge">0</span>
+                    <div class="carts-products">
+                        <div></div>
+                        <div class="noproducts"></div>
+                        <a class="cart-a" href="carts_products.html">view all products</a>
+                      </div> 
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a href="login.html" id="logout">logout</a>
+                  </li>
+                </ul>
+                <form class="d-flex" id="links">
+                    <li><a id="log-in" class="mx-2" href="login.html">Log in</a></li>
+                    <li><a id="signn-up" href="register.html">Register</a></li>
+                  <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+            <div class="container">
+              <div class="custom-select">
+                <select>
+                    <option value="" class="form-control">Search by name</option>
+                    <option value="">Search by category</option>
+                </select> 
+                <span class="custom-arroww"></span>
+                <input type="text" class="search-input shadow p-2 bg-body rounded" placeholder="Search">
+            </div>
+        </div> <!-- container -->
+        <div class="linee"></div>
+
+        <!-- products////////////////////////////////////////////////////////// -->
+
+        <section class="section-form2">
+            <div class="container my-2">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-4 products">
+                     
+                    </div> 
+                 </div> <!-- row -->
+            </div> <!-- container -->
+           
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+       
+       
+       <script src="js/user.js"></script>
+       <script src="js/data.js"></script>
+       <script src="js/script.js"></script>
+       <script src="js/bootstrap.min.js"></script>
+       <script src="js/all.min.js"></script>
+</body>
+</html>
