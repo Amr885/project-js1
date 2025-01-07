@@ -491,6 +491,3 @@ nav ul#user-info li .badge{
     border-radius: 8px  !important;
     margin-bottom: 30px  !important;
 }
-.navbar-toggler:focus{
-    box-shadow: none;
-}
