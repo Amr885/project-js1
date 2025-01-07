@@ -327,9 +327,9 @@ nav ul#user-info li .badge{
         position: absolute;
         /* margin-left: -550px !important; */
     }
-    .custom-arroww{
+    /* .custom-arroww{
         margin-left: -394px !important;
-    }
+    } */
     .card-item{
         width: 100%;
     }
@@ -381,9 +381,9 @@ nav ul#user-info li .badge{
         position: absolute;
         margin-left: -30px !important;
     }
-    .custom-arroww{
+    /* .custom-arroww{
         margin-left: -550px !important;
-    }
+    } */
     .cartt{
         margin-left: 5px;
         position: relative;
@@ -417,7 +417,7 @@ nav ul#user-info li .badge{
         left:70px;
     }
     .badge{
-        margin-left: 100px !important;
+        margin-left: -100px !important;
     }
    .arroww{
     left: 75px;
