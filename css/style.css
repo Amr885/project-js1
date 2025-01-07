@@ -364,7 +364,7 @@ nav ul#user-info li .badge{
     } 
 }
 
-@media (min-width : 567px) {
+@media (max-width : 567px) {
     nav{
         position: relative;
     }
@@ -382,7 +382,7 @@ nav ul#user-info li .badge{
         margin-left: -30px !important;
     }
     .custom-arroww{
-        margin-left: 120px;
+        margin-left: -450px;
     }
     .cartt{
         margin-left: 5px;
