@@ -364,7 +364,7 @@ nav ul#user-info li .badge{
     } 
 }
 
-@media (max-width : 567px) {
+@media (min-width : 567px) {
     nav{
         position: relative;
     }
