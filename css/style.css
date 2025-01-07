@@ -328,7 +328,7 @@ nav ul#user-info li .badge{
         /* margin-left: -550px !important; */
     }
     .custom-arroww{
-        margin-left: -394px;
+        margin-left: -394px !important;
     }
     .card-item{
         width: 100%;
@@ -382,7 +382,7 @@ nav ul#user-info li .badge{
         margin-left: -30px !important;
     }
     .custom-arroww{
-        margin-left: -550px;
+        margin-left: -550px !important;
     }
     .cartt{
         margin-left: 5px;
@@ -417,8 +417,7 @@ nav ul#user-info li .badge{
         left:70px;
     }
     .badge{
-        
-        margin-left: 40px;
+        margin-left: 100px !important;
     }
    .arroww{
     left: 75px;
